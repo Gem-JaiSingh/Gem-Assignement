@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float,Display,Visibility</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <p class ="heading">
+        <b>Display Property</b>
+    </p>
+    <div class = "container">
+        <h3>1. display: none</h3>
+        <span>It  helps developer to hide the element with display property set to none. For element whose display is set to none no <p id = "none"><b>ABC-XYZ</b></p> boxes are generated for it and even its child elements which might have display set to values other than none. <p id="inline">(Highlighted part is not displayed)</p></span>
+        <h3>2. display: inline</h3>
+        <span>Displays an element as an inline element. Any height and width <p id="inline"><b>{display: inline}</b></p> properties will have no effect</span>
+        <h3>3. display: block</h3>
+        <span>Displays an element as a block element. It starts <p id="block"><b>{display: block}</b></p> on a new line, and takes up the whole width</span>
+        <h3>4. display: inline-block</h3>
+        <span>Displays an element as an inline-level block container. The element itself is <p id="inline-block"><b>{display: inline-block}</b></p> formatted as an inline element, but you can apply height and width values. (Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde nemo esse natus, corporis, libero perferendis totam molestiae numquam nulla architecto laboriosam temporibus.)</span>
+        <h3>5. display: flex</h3>
+        <span>Displays an element as a <p id="flex"><b>{display: flex}</b></p> block-level flex container</span>
+    </div>
+    <p class ="heading" id = "visibility">
+        <b> Visibility Property</b>
+    </p>
+    <div class="container">
+        <h3>1. visibility: visible</h3>
+        <span id="visible">Default value. The element is visible
+            <div class="div1">DIV 1</div>
+            <div class="div2">DIV 2</div>
+            <div class="div3">DIV 3</div>
+        </span>
+        <h3>2. visibility: hidden</h3>
+        <span id = "hidden">
+            <div class="div1">DIV 1</div>
+            <div class="div21">DIV 2</div>
+            <div class="div3">DIV 3</div>
+        </span>
+        <p>The element is hidden (but still takes up space)</p>
+    </div>
+    <p class ="heading" id = "visibility">
+        <b> Float Property</b>
+    </p>
+    <div class="container">
+        <p><img src="./css.jpg" alt=""> The CSS float property is a positioning property. It is used to push an element to the left or right, allowing other element to wrap around it. It is generally used with images and layouts. Elements are floated only horizontally. So it is possible only to float elements left or right, not up or down. A floated element may be moved as far to the left or the right as possible. Simply, it means that a floated element can display at extreme left or extreme right.
+            The elements after the floating element will flow around it.
+            The elements before the floating element will not be affected.
+            If the image floated to the right, the texts flow around it, to the left and if the image floated to the left, the text flows around it, to the right.
+            Elements next to a floating element will flow around it. To avoid this, use the clear property or the clearfix hack
+            <br> <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod vero obcaecati quos ratione, quaerat eligendi distinctio porro accusamus aut quo inventore consequatur sapiente id a maxime sint consequuntur tempore at.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto sed labore cumque, porro iure libero ratione, voluptate aut ipsum dolorem quo at quaerat, rerum pariatur inventore totam sit et eveniet.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quidem ratione culpa neque itaque veritatis aliquid, nihil explicabo tenetur voluptates nemo, quos fugit possimus numquam perferendis! Deserunt et nihil obcaecati, id in debitis, beatae animi dolore amet nam sed illo maxime asperiores sint quidem impedit natus voluptate facere magni nulla?</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+    background-color: aquamarine;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    text-decoration: solid;
+    width: 60%;
+}
+
+.container {
+    margin: 40px 50px 0 50px;
+}
+
+h3 {
+    text-decoration: underline;
+}
+#none {
+    display: none; 
+    font: tomato;
+}
+
+#inline {
+    display: inline;
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#block {
+    display: block; 
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#inline-block {
+    display: inline-block; 
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex; 
+    color: rgb(248, 0, 0);
+    text-decoration: underline;
+}
+
+#visibility {
+    margin-top: 50px;
+}
+ #visible {
+     visibility: visible;
+ }
+
+
+
+ .div1 {
+    border:solid 1px;
+    height:100px;
+    width:15%;
+    margin:10px;
+    position: relative;
+}
+.div2 {
+    border:solid 1px;
+    height:100px;
+    width:15%;
+    margin:10px;
+    position: relative;
+}
+.div3{
+    border:solid 1px;
+    height:100px;
+    width:15%;
+    margin:10px;
+    position: relative;
+}
+
+.div21 {
+    border:solid 1px;
+    height:100px;
+    width:15%;
+    margin:10px;
+    position: relative;
+    visibility: hidden;
+}
+
+img {
+    float: left;
+    height: 20vh;
+    margin-right: 20px;
+  }
