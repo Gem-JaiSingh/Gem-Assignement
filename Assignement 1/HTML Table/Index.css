@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(255, 0, 170);
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin: 10px 0px 0px 190px;
+    font-size: 40px;
+    border: 10px;
+    border-style: double;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    width: 60%;
+}
+
+table {
+    margin-top: 200px;
+    justify-content: center;
+    width: 70%;
+    margin-left: 170px;
+    margin-right: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+th,td {
+    padding: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+  
+th {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
