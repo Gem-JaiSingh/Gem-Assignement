@@ -1,0 +1,60 @@
+.box {
+    background: rgb(0, 145, 255);
+    margin: 10px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h3 {
+    color: rgb(255, 0, 242);
+  }
+  .parent {
+    background: white;
+    border: 1px solid black;
+  }
+  
+  .fifty-percent {
+    width: 50%;
+  }
+  
+  .one-hundred {
+    width: 100px;
+  }
+  
+  .fifty-vw {
+    width: 50vw;
+  }
+  
+  .twenty-five-vh {
+    height: 25vh;
+  }
+  
+  .parent {
+    width: 100px;
+  }
+  .one-rem {
+    font-size: 1rem;
+  }
+  
+  .one-em {
+    font-size: 1em;
+  }
+  
+  .two-rem {
+    font-size: 2rem;
+  }
+  
+  .two-em {
+    font-size: 2em;
+  }
+  
+  .parent1 {
+    font-size: 30px;
+  }
+  hr {
+    margin: 30px 0;
+  }

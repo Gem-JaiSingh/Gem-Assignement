@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Unit</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+    <div class="pxdemo">
+        <h2>1. Pixel(px) is always the same</h2>
+        <div class="box one-hundred">100px</div>
+      </div>
+      <hr />
+      <div class="viewportdemo">
+        <h2>
+          2. vw or vh 1vw equals one percent of the entire screen size so 100 vw
+          would take up the entire width.
+        </h2>
+        <h3>Output-1 (Relative to entire html page.)</h3>
+        <div class="box fifty-percent">50%</div>
+        <div class="box fifty-vw">50vw</div>
+        <div class="box twenty-five-vh">25vh</div>
+        <hr />
+        <h3>Output-2 (Realtive to current parent.)</h3>
+        <div class="parent">
+          <div class="box fifty-percent">50%</div>
+          <div class="box fifty-vw">50vw</div>
+          <div class="box twenty-five-vh">25vh</div>
+        </div>
+      </div>
+      <hr />
+      <div class="remandemdemo">
+        <h2>
+          3. Both REM units and EM units are relative but instead of being
+          relative to things around them such as the width of their parents or the
+          height of the parents they’re actually relative to the font size.
+        </h2>
+        <h3>Output-1</h3>
+        <div class="one-rem">Font Size 1rem</div>
+        <div class="one-em">Font Size 1em</div>
+        <div class="two-rem">Font Size 2rem</div>
+        <div class="two-em">Font Size 2em</div>
+        <hr />
+        <h3>Output-2</h3>
+        <div class="parent1">
+          <div class="one-rem">Font Size 1rem</div>
+          <div class="one-em">Font Size 1em</div>
+          <div class="two-rem">Font Size 2rem</div>
+          <div class="two-em">Font Size 2em</div>
+        </div>
+      </div>
+</body>
+</html>
