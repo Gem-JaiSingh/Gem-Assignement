@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>combinators</title>
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+  <body>
+      
+          <h1 class="head">combinators</h1>
+      
+    <div class="div1">
+      <h2>Adjacent Sibling (+)</h2>
+      <div class="adjacent">
+        <h3>Not applied</h3>
+        <p>CSS applied</p>
+        <h3>Not applied</h3>
+        <h4>Not applied</h4>
+        <p>Not applied</p>
+        <h3>Not applied</h3>
+        <p>CSS applied</p>
+      </div>
+    </div>
+
+    <div class="div2">
+      <h2>General Sibling (~)</h2>
+      <div class="general">
+        <p>Not applied</p>
+        <h3>Not applied</h3>
+        <p>CSS applied</p>
+        <h3>Not applied</h3>
+        <h4>Not applied</h4>
+        <h4>Not applied</h4>
+        <p>CSS applied</p>
+      </div>
+    </div>
+
+    <div class="div3">
+      <h2>Child (>)</h2>
+      <div class="child">
+        <div>Not applied</div>
+        <p>CSS applied</p>
+        <div>Not applied</div>
+        <article>
+          <p>Not applied</p>
+          <p>Not applied</p>
+        </article>
+        <p>CSS applied</p>
+        <p>CSS applied</p>
+      </div>
+    </div>
+
+    <div class="div4">
+      <h2>Descendant</h2>
+      <div class="descendant">
+        <div>Not applied</div>
+        <p>CSS applied</p>
+        <div>Not applied</div>
+        <div>Not applied</div>
+        <article>
+          <p>CSS applied</p>
+          <p>CSS applied</p>
+        </article>
+        <p>CSS applied</p>
+      </div>
+    </div>
+    
+  </body>
+</html>

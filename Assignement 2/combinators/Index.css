@@ -1,0 +1,60 @@
+.adjacent h3 + p {
+    color: red;
+  }
+  
+  .general h3 ~ p {
+    color: red;
+  }
+  
+  .child > p {
+    color: red;
+  }
+  
+  .descendant p {
+    color: red;
+  }
+  .head{
+      text-align: center;
+      font-weight: bold;
+      border: double;
+      width: 50%;
+      margin-left: 350px;
+  }
+  .div1{
+      border: 1px solid black;
+      width: 500px;
+      text-align: center;
+      
+  }
+  .div2{
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+    
+}
+.div3{
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.div4{
+    border: 1px solid black;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+    
+}
+div {
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
