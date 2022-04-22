@@ -1,0 +1,37 @@
+
+#heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div1 p {
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+body .div1 .par1 {
+    color: tomato;
+}
+
+body .div1 #par2 {
+    color: rgb(60, 23, 207)
+}
+
+.div2 #par3 {
+    color: sienna;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+   
+}
+
+.div2 #par4 {
+    color: rgb(244, 11, 11);
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 50px;
+    
+}
