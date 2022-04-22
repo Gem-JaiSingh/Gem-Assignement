@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Rectangle {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(13, 255, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  
+}
+.Rectangle:hover {
+  transform: rotate(360deg);
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 30px;
+  background-color: rgb(102, 0, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.circle:hover {
+  transform: scale(1.5);
+}
+.Oval {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 30px;
+  background-color: rgb(255, 145, 0);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+.Oval:hover {
+  transform: skew(20deg, 10deg);
+}
+.Parallelogram {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding: 30px;
+  background-color: red;
+  border-radius: 30px;
+  cursor: pointer;
+  transform: skew(20deg);
+  transition: all 1s ease-in-out;
+}
+.Parallelogram:hover {
+ transform: translateX(200px);
+}
