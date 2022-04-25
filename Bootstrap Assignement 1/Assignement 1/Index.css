@@ -1,3 +1,16 @@
 h1{
     text-align: center;
 }
+*{
+    background-color: rgb(0, 255, 238);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
