@@ -25,4 +25,9 @@ a{
     box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
     border: none;
   }
+  .form-select:active , .form-select:focus{
+    background-color: #ECEDF1;
+    box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
+    border: none;
+  }
  
