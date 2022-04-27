@@ -10,3 +10,19 @@ a{
     color: #264A9F !important;
     font-family: 'Poppins', sans-serif;
 }
+.form-control , .form-select {
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #ffffff;
+    background-color: #ECEDF1;
+    border-radius: 20px !important;
+  }
+  input[type=password]:active, input[type=password]:focus {
+    background-color: #ECEDF1;
+    box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
+    border: none;
+  }
+  input[type=email]:active, input[type=email]:focus{
+    background-color: #ECEDF1;
+    box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
+    border: none;
+  }
+ 
