@@ -169,8 +169,26 @@ a{
   padding-left: 0;
   margin-left: 0;
 }
+.WHAT_OFFERS li {
+  margin-bottom: 28px;
+  list-style-type: none;
+  margin-left: 48px;
+}
 
-
+.WHAT_OFFERS li:before {
+  content: "";
+  background: url(https://www.tataaig.com/checkmark.svg), transparent linear-gradient(276deg, rgba(13, 53, 148, .898039), #35d3e1) 0 0 no-repeat padding-box;
+  height: 36px;
+  width: 36px;
+  display: block;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  position: absolute;
+  left: 19px;
+}
 
   
   
