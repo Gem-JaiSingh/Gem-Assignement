@@ -1,6 +1,13 @@
+*{
+  font-family:  'Poppins','sans-serif';
+}
 .main{
     width: 80%;
     margin: auto;
+}
+.head{
+  position: fixed;
+  top: 0;
 }
 .self{
     background-color: rgb(233, 238, 243);
@@ -25,9 +32,134 @@ a{
     box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
     border: none;
   }
-  .form-select:active , .form-select:focus{
+  .form-select:focus , .form-select:focus{
     background-color: #ECEDF1;
     box-shadow: inset 4px 4px 6px #bfc3cf, inset -4px -4px 6px #ffffff;
-    border: none;
+    border: none ;
   }
+  .mainbutton {
+    background: transparent
+      linear-gradient(276deg, rgba(13, 53, 148, 0.898039), #35d3e1) 0 0 no-repeat
+      padding-box;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  .buttontxt {
+    color: #071e54;
+    opacity: 0.4;
+    margin-top: 2px;
+    font-size: 13px;
+    margin-left: 18px;
+    margin-bottom: 12px;
+  }
+  .card_body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.details_box{
+    height: 80px;
+    width: 80px;
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.join_text {
+    color: #071e54;
+    font-size: 13px;
+    opacity: .5;
+    text-align: center; 
+    float: left; 
+    font-size: 14px;
+}
+
+.whyJoin {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.customCard {
+    background: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+    border: none !important;
+}
+
+.heading {
+    color: #264a9f;
+    font-size: 40px !important;
+}
+
+.DottedPadding {
+    border-right: 2px dotted #cecece;
+}
+
+.ShadowBox {
+    height: 80px;
+    width: 80px;
+    box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+    .ShadowBox {
+        height: 120px;
+        width: 120px;
+        box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.ShadowBox img {
+    width: 30px;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .ShadowBox img {
+        width: 50px;
+        height: auto;
+    }
+}
+
+.contentClass2 {
+    font-size: 13px;
+    color: rgba(7, 30, .84, .8);
+}
+
+.contentClass2 p {
+    font-size: 17px;
+    /* color: #264a9f; */
+}
+
+@media only screen and (max-width: 768px) {
+    .mDisplayNone {
+        display: none!important;
+    }
+}
+
+.dDisplayNone {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .dDisplayNone {
+        display: block;
+    }
+}
+  
+  
  
