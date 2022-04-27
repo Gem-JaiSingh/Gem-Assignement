@@ -193,6 +193,216 @@ a{
   position: absolute;
   left: 19px;
 }
+.FOOTER_BEFORE_FOOTER {
+  background-image: url(https://www.tataaig.com/footerBgImage1.svg);
+  background-size: contain;
+  background-position: right 2rem center;
+  background-repeat: no-repeat;
+  min-height: 50px;
+  border-bottom: 2px dotted #9999;
+}
+
+
+.CustomCard {
+  background: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+  box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+  border-radius: 10px;
+  border: none !important;
+}
+
+@media (min-width: 1900px) {
+  .CustomCard {
+      background: linear-gradient(to bottom right, #eff0f3, #e5e6eb);
+      box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+      border-radius: 20px;
+      border: none !important;
+  }
+}
+
+.FOOTER_PADDING {
+  padding: 50px 65px 63px;
+}
+
+@media (min-width: 1600px) {
+  .FOOTER_PADDING {
+      padding: 65px 95px 45px;
+  }
+} 
+
+.LOGO_FOOTER {
+  height: 50px;
+  width: auto;
+  box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+}
+
+@media (min-width: 1600px) {
+  .LOGO_FOOTER {
+      height: 98px;
+  }
+}
+
+.PLAY_IMAGE {
+  height: auto;
+  width: 55%;
+  max-height: 60px;
+  max-width: 190px;
+}
+
+.contentClass2 {
+  font-size: 13px;
+  color: rgba(7, 35, 84, .8);
+}
+
+@media (min-width: 1900px) {
+  .contentClass2 {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: left;
+  }
+}
+
+.footerHover {
+  color: rgba(7, 30, 84, .6);
+  text-decoration: none;
+}
+
+/* CSS FOR SOCIAL MEDIA ICONS */
+.socialMediaIcons a{
+  color: #fff;
+  background: rgba(7, 30, 84, .3);
+  border: 4px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px #bfc3cf, -3px -3px 6px #fff;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media (min-width: 1900px) {
+  .icons {
+      width: 35px;
+      height: 35px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .icons {
+      height: 40px;
+      width: 40px;
+  }
+}
+
+.socialMediaIcons a i {
+  font-size: 14px;
+}
+
+.fa {
+  display: inline-box;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.icons:hover {
+  background-color: #007bff;
+}
+
+.HEADING_FOOTER {
+  margin-bottom: 20px;
+  color: #264a9f;
+  font-size: 16px;
+}
+
+@media (min-width: 1900px){
+  .HEADING_FOOTER {
+      margin-bottom: 30px;
+      font-size: 28px;
+      color: #264a9f;
+      text-align: left;
+      letter-spacing: normal;
+      line-height: 1.5;
+      font-weight: 500;
+  }
+}
+
+
+.LINKS_FOOTER div{
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+@media (min-width: 1600px) {
+  .LINKS_FOOTER div{
+      padding: 14px 0;
+  }
+}
+
+.seperator {
+  top: 0;
+  left: 92%;
+  border-right: 1px dotted #bcbcbc;
+  bottom: 0;
+  opacity: 1;
+}
+.positon-absolute {
+  position: absolute !important;
+}
+
+.accordShadow {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px #bcbcbc, -3px -3px 6px #fff;
+  right: 35px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 1900px) {
+  .accordShadow{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      box-shadow: 3px 3px 6px #bcbcbc, -3px -3px 6px #fff;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-50%);
+  }
+}
+
+.subHeading {
+   color: #264a9f;
+   font-size: 16px;
+}
+
+@media (min-width: 1900px) {
+   .subHeading {
+       color: #264a9f;
+       font-size: 28px;
+       font-weight: 500;
+       font-style: normal;
+       line-height: 1.5;
+       text-align: left;
+       letter-spacing: normal;
+   }
+}
+
+.borderDotted {
+   border-bottom: 2px dotted #cecece;
+}
 
   
   
