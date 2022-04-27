@@ -160,6 +160,18 @@ a{
         display: block;
     }
 }
+.WHAT_OFFERS {
+  font-size: 16px;
+  color: #264a9f;
+}
+
+.WHAT_OFFERS ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+
   
   
  
