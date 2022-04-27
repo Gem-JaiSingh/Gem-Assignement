@@ -3,11 +3,13 @@
 }
 .main{
     width: 80%;
-    margin: auto;
+    margin: auto; 
 }
 .head{
-  position: fixed;
+  position: sticky;
   top: 0;
+  z-index: 1;
+  background-color: white;
 }
 .self{
     background-color: rgb(233, 238, 243);
@@ -85,6 +87,8 @@ a{
 .whyJoin {
     padding-top: 70px;
     padding-bottom: 70px;
+    width: 98%;
+    margin: auto;
 }
 
 .customCard {
