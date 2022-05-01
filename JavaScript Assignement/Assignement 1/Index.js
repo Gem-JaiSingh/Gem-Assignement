@@ -11,6 +11,37 @@
     var tHead = document.createElement("tHead");
     tHead.setAttribute("class", "table-dark");
 
+    var tr = document.createElement("tr");
+    var th1 = document.createElement("th");
+    var th2 = document.createElement("th");
+    var th3 = document.createElement("th");
+    var th4 = document.createElement("th");
+    var th5 = document.createElement("th");
+
+    
+    var val1 = document.createTextNode(details[0][0]);
+    var val2 = document.createTextNode(details[0][1]);
+    var val3 = document.createTextNode(details[0][2]);
+    var val4 = document.createTextNode(details[0][3]);
+    var val5 = document.createTextNode(details[0][4]);
+
+    th1.appendChild(val1);
+    th2.appendChild(val2);
+    th3.appendChild(val3);
+    th4.appendChild(val4);
+    th5.appendChild(val5);
+
+    tr.appendChild(th1);
+    tr.appendChild(th2);
+    tr.appendChild(th3);
+    tr.appendChild(th4);
+    tr.appendChild(th5);
+
+    tHead.appendChild(tr);
+    table.appendChild(tHead);
+
+    var tbod = document.createElement("tbody");
+
 })();
    
    
