@@ -1,5 +1,5 @@
 (function () {
-  let details = [
+  const details = [
     ["Name", "Age", "DOB", "Email", "Company"],
     ["ABC", "18", "12/07/2003", "xyz@gmail.com", "XYZ"],
     ["DEF", "19", "10/10/2001", "abc@gmail.com", "MNO"],
