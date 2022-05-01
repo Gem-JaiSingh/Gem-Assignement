@@ -42,6 +42,37 @@
 
     var tbod = document.createElement("tbody");
 
+    for(var i = 1; i < 5; i++){
+        var tr = document.createElement("tr");
+        var td1 = document.createElement("td");
+        var td2 = document.createElement("td");
+        var td3 = document.createElement("td");
+        var td4 = document.createElement("td");
+        var td5 = document.createElement("td");
+
+        var value1 = document.createTextNode(details[i][0]);
+        var value2 = document.createTextNode(details[i][1]);
+        var value3 = document.createTextNode(details[i][2]);
+        var value4 = document.createTextNode(details[i][3]);
+        var value5 = document.createTextNode(details[i][4]);
+
+        td1.appendChild(value1);
+        td2.appendChild(value2);
+        td3.appendChild(value3);
+        td4.appendChild(value4);
+        td5.appendChild(value5);
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        tr.appendChild(td4);
+        tr.appendChild(td5);
+
+        tbod.appendChild(tr);
+        table.appendChild(tbod);
+    }
+    document.body.appendChild(table);
+
 })();
    
    
