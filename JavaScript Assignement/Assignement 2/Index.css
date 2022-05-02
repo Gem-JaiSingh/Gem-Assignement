@@ -6,8 +6,19 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-
-input[type=number] {
-  -moz-appearance: textfield;
+h1{
+  text-align: center;
 }
+
+form{
+  margin-left: 80px;
+}
+
+label{
+  margin-left: 14px;
+}
+
+
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
