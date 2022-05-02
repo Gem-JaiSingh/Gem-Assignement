@@ -71,7 +71,6 @@ function informationCorrect() {
 function viewdetails() {
   var table = document.getElementById("tbody");
   let d = document.createElement("tr");
-
   d.innerHTML = `<tr>
     <th scope = "row">${count}</th>
     <td>${localStorage.getItem(count + "name")}</td>
