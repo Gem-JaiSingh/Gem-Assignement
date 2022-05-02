@@ -1,24 +1,25 @@
-*{
-    background-color: rgb(75, 193, 197);
+* {
+  background-color: rgb(153, 163, 163);
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-h1{
+h1 {
   text-align: center;
 }
 
-form{
+form {
   margin-left: 80px;
 }
 
-label{
+label {
   margin-left: 14px;
 }
-
-
-/* input[type=number] {
-  -moz-appearance: textfield;
-} */
+.valid-feedback{
+  font-weight: bold;
+}
+.invalid-feedback{
+  font-weight: bold;
+}
